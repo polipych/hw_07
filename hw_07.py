@@ -12,7 +12,7 @@ from dateutil.relativedelta import relativedelta
 
 DB_USER = "postgres"
 DB_NAME = "postgres"
-DB_PASSWORD = "Admin123!"
+DB_PASSWORD = "postgres"
 DB_HOST = "127.0.0.1"
 
 DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:5432/{DB_NAME}"
